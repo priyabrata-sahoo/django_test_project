@@ -29,7 +29,7 @@ Follow these steps to set up the Django Test Project on your local machine:
 2. Build and run the Docker containers:
 
     ```bash
-    docker-compose up --build -d
+    docker compose up --build -d
     ```
 
     This command will build the Docker image and start the containers in detached mode.
@@ -43,7 +43,7 @@ Follow these steps to set up the Django Test Project on your local machine:
 - Check the status of Docker containers:
 
     ```bash
-    docker-compose ps
+    docker compose ps
     ```
 
 - Access the shell of a running container:
