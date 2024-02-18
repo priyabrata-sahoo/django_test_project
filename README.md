@@ -36,7 +36,7 @@ Follow these steps to set up the Django Test Project on your local machine:
 
 3. Access the Django application:
 
-    Open your web browser and go to [http://localhost:8000](http://localhost:8000) to see the Django Test Project running.
+    Open your web browser and go to [http://localhost:8000/admin/](http://localhost:8000/admin/) to see the Django Test Project running.
 
 ## Docker Compose Commands
 
