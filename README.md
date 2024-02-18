@@ -38,6 +38,22 @@ Follow these steps to set up the Django Test Project on your local machine:
 
     Open your web browser and go to [http://localhost:8000](http://localhost:8000) to see the Django Test Project running.
 
+## Docker Compose Commands
+
+- Check the status of Docker containers:
+
+    ```bash
+    docker-compose ps
+    ```
+
+- Access the shell of a running container:
+
+    ```bash
+    docker exec -it <container_name> /bin/bash
+    ```
+
+    Replace `<container_name>` with the actual name or ID of your running container.
+
 ## Contributing
 
 If you would like to contribute to this project, please follow these guidelines:
