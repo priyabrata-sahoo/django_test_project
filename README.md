@@ -49,7 +49,7 @@ Follow these steps to set up the Django Test Project on your local machine:
 - Access the shell of a running container:
 
     ```bash
-    docker exec -it <container_name> /bin/bash
+    docker exec -it <container_name> bash
     ```
 
     Replace `<container_name>` with the actual name or ID of your running container.
